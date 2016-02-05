@@ -1,7 +1,6 @@
 "use strict";
 
 
-
 // setup your IIFE (Immediately Invoked Function Expression)
 (function () {
 
@@ -30,12 +29,19 @@ var aboutTitle;
 
 // Contact me h1
 
-var contact; 
+var intro; 
     
-    contact = document.getElementById("contact");
+    intro = document.getElementById("intro");
     
-    contact.innerHTML = "Contact Me";
+    intro.innerHTML = "Contact Me"
 
+
+
+var projectTitle; 
+    
+    projectTitle = document.getElementById("projectTitle");
+    
+    projectTitle.innerHTML = "Projects";
 
 
 })();
