@@ -1,36 +1,42 @@
 "use strict";
 
+
+
 // setup your IIFE (Immediately Invoked Function Expression)
 (function () {
 
     console.log("App Started..."); 
   
+ 
   
-    //declared a named function way
-    /*
-    function replaceFirstParagraph() {
-        console.log("inside replaceFirstParagraph function");
-        var firstParagraph;
+  
+// About me h1 
 
-        firstParagraph = document.getElementById("firstParagraph");
-
-        firstParagraph.innerHTML = "My New Paragraph Data";
-    }
-    */
+var aboutTitle; 
     
-    // declare an anonymous function with named alias
-    var replaceFirstParagraph = function() {
-        console.log("inside replaceFirstParagraph anonymous function");
-        var firstParagraph;
-
-        firstParagraph = document.getElementById("firstParagraph");
-
-        firstParagraph.innerHTML = "My New Paragraph Data";
-    };
+    aboutTitle = document.getElementById("aboutTitle");
     
-   
-    // call the replaceFirstParagraph function
-    replaceFirstParagraph();
+    aboutTitle.innerHTML = "About Me"
+  
+ // About me paragraph  
+  
+  
+  var aboutParagraph; 
+    
+      aboutParagraph = document.getElementById("aboutParagraph");
+    
+    aboutParagraph.innerHTML = "Donec a laoreet urna, in dictum nisi. Etiam vestibulum neque quis ligula hendrerit, sed auctor ligula pretium. Praesent purus erat, consequat ac arcu vel, tempor vehicula eros. Maecenas eget congue dui, ac posuere quam. Quisque fringilla pretium nulla id tempor. Quisque hendrerit vitae augue sit amet elementum. Phasellus et nisi leo.Donec a laoreet urna, in dictum nisi. Etiam vestibulum neque quis ligula hendrerit, sed auctor ligula pretium. Praesent purus erat, consequat ac arcu vel, tempor vehicula eros. Maecenas eget congue dui, ac posuere quam. Quisque fringilla pretium nulla id tempor. Quisque hendrerit vitae augue sit amet elementum. Phasellus et nisi leo."
+
+
+// Contact me h1
+
+var contact; 
+    
+    contact = document.getElementById("contact");
+    
+    contact.innerHTML = "Contact Me";
+
 
 
 })();
+
