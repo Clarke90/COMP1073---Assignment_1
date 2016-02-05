@@ -36,12 +36,23 @@ var intro;
     intro.innerHTML = "Contact Me"
 
 
-
+// project title 
 var projectTitle; 
     
     projectTitle = document.getElementById("projectTitle");
     
     projectTitle.innerHTML = "Projects";
+    
+    
+ //footer 
+ 
+    var year; 
+    
+    year = document.getElementById("year");
+    
+    year.innerHTML = "2016";
+    
+    
 
 
 })();
