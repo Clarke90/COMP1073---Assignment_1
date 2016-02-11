@@ -1,3 +1,10 @@
+<!--Chad Clarke-->
+<!--Assignment_1-->
+<!--COMP 1073-->
+<!--CodedbyClarke-->
+<!--A personal portfolio built using html, css, and javascript to manipulate the dom, 
+this portfolio is used to showcase my projects.-->
+
 <!DOCTYPE html>
 <!-- emmet command:
 html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{Welcome to lesson 4}+p>lorem100)
@@ -11,11 +18,11 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
     <!-- CSS Section -->
     <link rel="stylesheet" href="Content/css/bootstrap.min.css">
     <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
-  <!--font awesome -->
+    <!--font awesome -->
     <link rel="stylesheet" href="Content/css/font-awesome.min.css">
-  <!--ion icons -->
-  <link rel="stylesheet" href="Content/css/ionicons.min.css">
-   <!--custom css -->
+    <!--ion icons -->
+    <link rel="stylesheet" href="Content/css/ionicons.min.css">
+    <!--custom css -->
     <link rel="stylesheet" href="Content/app.css">
 
 
@@ -25,101 +32,245 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
 <body>
 
     <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="projects.html">Projects</a></li>
-         <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#skils">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-    <section id="hero-area">
-      
-    </section>
-    <!--/#main-slider-->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>I'AM CHAD CLARKE </h1>
+            <h3><span>D</span>esigner, <span>D</span>eveloper, <span>D</span>reamer </h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg" id="more_button">Find Out More</a>
+        </div>
+    </header>
 
- <main class="container" id="mainContent">
+
+
+    <main class="container" id="mainContent">
         <section>
             <div class="container">
-                <div class="section-heading">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-lg-offset-1">
                         <h1 id="aboutTitle"></h1>
+
+
+
+                        <div class="row">
+                            <div class="col-sm-6 text-center">
+                                <br/>
+                                <p id="aboutParagraph"></p>
+                            </div>
+
+                            <div class="col-sm-6 text-center">
+                                <img src="Content/css/img/family.svg" height="450px">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-
-            <div class="row">
-                 <div class="col-sm-6 text-center">
-                     <br/>
-                     <p id="aboutParagraph"></p>
-                 </div>
-            
-              <div class="col-sm-6 text-center">
-                     <img  src="Content/css/images/family.svg" height="450px">
-                 </div>   
-             </div>   
-
-          </div> <!-- end of container --> 
+                <!-- end of container -->
         </section>
- </main>
-   
-    <!--
-            ==================================================
-            Footer Section Start
-            ================================================== -->
-            <footer id="footer">
-                <div class="container">
-                    <div class="col-md-8">
-                        <p class="copyright">Copyright: <span>2015</span> . Design and Developed by <small>Chad Clarke</small></p>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Social Media -->
-                        <ul class="social">
-                            <li>
-                                <a href="#" class="Facebook">
-                                    <i class="ion-social-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Twitter">
-                                    <i class="ion-social-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Linkedin">
-                                    <i class="ion-social-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Google Plus">
-                                    <i class="ion-social-googleplus"></i>
-                                </a>
-                            </li>
-                        </ul>
+
+        <!--skills section-->
+        <section id="skills">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h1 id="skillsTitle"></h1>
+                        <div class="row">
+                            <!--html5-->
+                            <div class="col-lg-4 text-center">
+                                <i class="ion-social-html5-outline"></i>
+                                <h3 id="iconOne"></h3>
+                            </div>
+                            <!--css-->
+                            <div class="col-lg-4 text-center">
+                                <i class="ion-social-html5-outline"></i>
+                                <h3 id="iconTwo"></h3>
+                            </div>
+                            <!--responsive-->
+                            <div class="col-lg-4 text-center">
+                                <i class="ion-social-html5-outline"></i>
+                                <h3 id="iconThree"></h3>
+                            </div>
+                        </div>
+                        <!-- inner row -->
                     </div>
                 </div>
-            </footer> <!-- /#footer -->
-   
-   
-   
-   
-   
-   
-   
-   
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </section>
+
+        <!-- Page Header -->
+        <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+                        <h1 id="portfolioTitle"></h1>
+        </div>     
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <div class="row text-center">
+                    <h3 id="projectOne"></h3>
+                <p class="lipsum"></p>
+                </div>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+              <div class="row text-center">
+                    <h3 id="projectTwo"></h3>
+                <p class="lipsum"></p>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+<br/>
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+            <div class="row text-center">
+                    <h3 id="projectThree"></h3>
+                <p class="lipsum">hahahahah</p>
+                </div>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+             <div class="row text-center">
+                    <h3 id="projectFour"></h3>
+                <pclass="lipsum"></p>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        </section>
+
+<!--like what you see section-->
+
+
+
+
+    </main>
+
+<section id="callToAction">
+
+</section>
+
+
+<!--contact section-->
+<section id="contact">
+    <div class="container">
+   <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+                        <!--<h1 id="contactTitle"></h1> --><i class="ion-paper-airplane"></i>
+        </div>     
+        </div>
+
+ <div class="row">
+<div class="col-lg-10 col-lg-offset-1">            
+            <div class="form-group">
+  <label for="usr">Name:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" id="Email">
+</div>
+
+<div class="form-group">
+  <label for="emal">Email:</label>
+  <input type="email" class="form-control" id="pwd">
+</div>
+
+            <div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+        <button type="button" class="btn btn-success">Success</button>
+            
+            </div>
+        </div>
+    </div>    
+</section>
+
+
+
+ <!--footer-->
+    <footer id="footer">
+        <div class="container">
+            <div class="col-md-8">
+                <p id="copyright" class="copyright"></p>
+            </div>
+            <div class="col-md-4">
+                <!-- Social Media -->
+                <ul class="social">
+                    <li>
+                        <a href="#" class="Facebook">
+                            <i class="ion-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="Twitter">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="Linkedin">
+                            <i class="ion-social-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="Google Plus">
+                            <i class="ion-social-googleplus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- /#footer -->
+
+
+
+
+
+
+
+
     <!-- JavaScript Section -->
     <script src="Scripts/lib/jquery-2.2.0.min.js"></script>
     <script src="Scripts/lib/bootstrap.min.js"></script>

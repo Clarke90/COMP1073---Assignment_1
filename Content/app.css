@@ -2,24 +2,45 @@
 .navbar{
     background-color: #222;
 }
-#hero-area {
- /* background: url('Content/css/images/office.jpg') no-repeat 50%; */
- background-color: #222;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 230px 0;
-  color: #fff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-  
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../Content/css/img/office.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-top: -5%;
 }
+
 p{
     font-size: 20px;
 }
-header{
-    height: 300px;
-    background-color:#02bdd5;
-    background-image:  url('Content/css/images/office.jpg')
+#skills{
+    margin-bottom: 5%;
 }
+#skills i{
+  font-size: 15em;  
+}
+
+#callToAction{
+        display: table;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url(../Content/css/img/calltoaction.png) repeat center center scroll;
+}
+#contact{
+    margin-bottom: 5%;
+}
+.ion-paper-airplane{
+    font-size: 80px;
+}
+
+
+
 
 /*footer starts here */
 #footer {
