@@ -17,8 +17,6 @@ var aboutTitle;
     aboutTitle.innerHTML = "About Me"
   
  // About me paragraph  
-  
-  
   var aboutParagraph; 
     
       aboutParagraph = document.getElementById("aboutParagraph");
@@ -95,12 +93,29 @@ var aboutTitle;
    lipsum = document.getElementsByClassName("lipsum");
    lipsum.innerHTML = "llolo";
 
+    //   call to action 
+    
+    var likeWhatYouSee
+    likeWhatYouSee = document.getElementById("likeWhatYouSee");
+    likeWhatYouSee.innerHTML = "Like What You See? I'am Availibale For Freelancing";
+       
+       
+       
+       
         // contact section 
         
     // contact
     var contactTitle
     contactTitle = document.getElementById("contactTitle")
     contactTitle.innerHTML = "Contact";
+
+
+
+            
+
+
+
+
 
 })();
 

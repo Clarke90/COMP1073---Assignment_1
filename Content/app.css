@@ -7,7 +7,7 @@
     position: relative;
     width: 100%;
     height: 500px;
-    background: url(../Content/css/img/office.jpg) no-repeat center center scroll;
+    background: url(../Content/css/img/white.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -22,15 +22,22 @@ p{
     margin-bottom: 5%;
 }
 #skills i{
-  font-size: 15em;  
+  font-size: 20em;  
+  color: #02bdd5;
+}
+#intro{
+    margin-top: 15%;
 }
 
 #callToAction{
-        display: table;
+    display: table;
     position: relative;
     width: 100%;
     height: 250px;
     background: url(../Content/css/img/calltoaction.png) repeat center center scroll;
+}
+#callToActionText{
+    margin-top: 5%;
 }
 #contact{
     margin-bottom: 5%;
@@ -38,10 +45,12 @@ p{
 .ion-paper-airplane{
     font-size: 80px;
 }
-
-
-
-
+span{
+    color: #02bdd5;
+}
+.text-center{
+   
+}
 /*footer starts here */
 #footer {
   background: #222;

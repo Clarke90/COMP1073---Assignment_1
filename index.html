@@ -59,11 +59,11 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
     </nav>
 
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>I'AM CHAD CLARKE </h1>
+        <div id="intro" class="text-center">
+            <h1 id="iam">I AM CHAD CLARKE </h1>
             <h3><span>D</span>esigner, <span>D</span>eveloper, <span>D</span>reamer </h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg" id="more_button">Find Out More</a>
+            <button type="button" class="btn btn-info">Success</button>
         </div>
     </header>
 
@@ -93,6 +93,7 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
                 <!-- end of container -->
         </section>
 
+
         <!--skills section-->
         <section id="skills">
             <div class="container">
@@ -107,12 +108,12 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
                             </div>
                             <!--css-->
                             <div class="col-lg-4 text-center">
-                                <i class="ion-social-html5-outline"></i>
+                                <i class="ion-social-javascript-outline"></i>
                                 <h3 id="iconTwo"></h3>
                             </div>
                             <!--responsive-->
                             <div class="col-lg-4 text-center">
-                                <i class="ion-social-html5-outline"></i>
+                                <i class="ion-social-css3-outline"></i>
                                 <h3 id="iconThree"></h3>
                             </div>
                         </div>
@@ -126,9 +127,9 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
 
         <!-- Page Header -->
         <div class="row text-center">
-        <div class="col-lg-10 col-lg-offset-1">
-                        <h1 id="portfolioTitle"></h1>
-        </div>     
+            <div class="col-lg-10 col-lg-offset-1">
+                <h1 id="portfolioTitle"></h1>
+            </div>
         </div>
         <!-- /.row -->
 
@@ -140,100 +141,102 @@ html[lang="en"]>(head>(meta[charset="utf-8"])(title{COMP1073-Lesso4}))+(body>h1{
                 </a>
                 <div class="row text-center">
                     <h3 id="projectOne"></h3>
-                <p class="lipsum"></p>
+                    <p class="lipsum"></p>
                 </div>
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                 </a>
-              <div class="row text-center">
+                <div class="row text-center">
                     <h3 id="projectTwo"></h3>
-                <p class="lipsum"></p>
+                    <p class="lipsum"></p>
                 </div>
             </div>
         </div>
         <!-- /.row -->
-<br/>
+
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                 </a>
-            <div class="row text-center">
+                <div class="row text-center">
                     <h3 id="projectThree"></h3>
-                <p class="lipsum">hahahahah</p>
+                    <p class="lipsum">hahahahah</p>
                 </div>
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                 </a>
-             <div class="row text-center">
+                <div class="row text-center">
                     <h3 id="projectFour"></h3>
-                <pclass="lipsum"></p>
+                    <pclass="lipsum">
+                        </p>
                 </div>
             </div>
         </div>
         <!-- /.row -->
         </section>
 
-<!--like what you see section-->
-
-
-
-
+        <!--like what you see section-->
     </main>
 
-<section id="callToAction">
-
-</section>
-
-
-<!--contact section-->
-<section id="contact">
-    <div class="container">
-   <div class="row text-center">
-        <div class="col-lg-10 col-lg-offset-1">
-                        <!--<h1 id="contactTitle"></h1> --><i class="ion-paper-airplane"></i>
-        </div>     
-        </div>
-
- <div class="row">
-<div class="col-lg-10 col-lg-offset-1">            
-            <div class="form-group">
-  <label for="usr">Name:</label>
-  <input type="text" class="form-control" id="usr">
-</div>
-<div class="form-group">
-  <label for="pwd">Password:</label>
-  <input type="password" class="form-control" id="Email">
-</div>
-
-<div class="form-group">
-  <label for="emal">Email:</label>
-  <input type="email" class="form-control" id="pwd">
-</div>
-
-            <div class="form-group">
-  <label for="comment">Comment:</label>
-  <textarea class="form-control" rows="5" id="comment"></textarea>
-</div>
-        <button type="button" class="btn btn-success">Success</button>
-            
+    <section id="callToAction">
+        <div class="row">
+            <div  id="callToActionText" class="col-lg-12 text-center">
+                <h1 id="likeWhatYouSee"></h1>
+                <button type="button" class="btn btn-info">Success</button>
             </div>
         </div>
-    </div>    
-</section>
+    </section>
+
+
+    <!--contact section-->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <!--<h1 id="contactTitle"></h1> --><i class="ion-paper-airplane"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emal">Email:</label>
+                        <input type="email" class="form-control" id="pwd">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-success">Success</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
- <!--footer-->
+    <!--footer-->
     <footer id="footer">
         <div class="container">
             <div class="col-md-8">
-                <p id="copyright" class="copyright"></p>
+                <p id="copyright"></p>
             </div>
             <div class="col-md-4">
                 <!-- Social Media -->
