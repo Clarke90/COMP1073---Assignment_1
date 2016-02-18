@@ -55,14 +55,14 @@ ActionText.innerHTML = "Designer Developer Dreamer";
     var iconTwo;
     iconTwo = document.getElementById("iconTwo");
    
-    iconTwo.innerHTML = "Modern CSSL";
+    iconTwo.innerHTML = "Efficient Javascript";
 
 
 // icon#3
     var iconThree;
     iconThree = document.getElementById("iconThree");
    
-    iconThree.innerHTML = "Responsive Design";
+    iconThree.innerHTML = "Modern Css";
 
 
 
