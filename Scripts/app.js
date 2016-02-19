@@ -108,10 +108,7 @@ ActionText.innerHTML = "Designer Developer Dreamer";
     var likeWhatYouSee
     likeWhatYouSee = document.getElementById("likeWhatYouSee");
     likeWhatYouSee.innerHTML = "Like What You See? I'am Availibale For Freelancing";
-       
-       
-       
-       
+              
         // contact section 
         
     // contact
@@ -120,12 +117,19 @@ ActionText.innerHTML = "Designer Developer Dreamer";
     contactTitle.innerHTML = "Contact";
 
 
-
+ var button = document.getElementById("Button");
+    //on click consol log the inputs 
+    button.onclick = function() {
+        var name =  button.form.name.value;
+        var email =  button.form.email.value;
+        var comment =  button.form.comment.value;
             
-
-
+            console.log(name + email + comment);
+    }
 
 
 
 })();
+
+
 
